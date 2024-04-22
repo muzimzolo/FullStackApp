@@ -12,7 +12,6 @@ const mockImages = mockUrls.map((url, index) =>  ({
   id: index + 1,
   url,
 }));
-
 export default function HomePage() {
   return (
     <main className="">
